@@ -1,0 +1,78 @@
+/* styles.css */
+
+.hero h1 {
+    font-size: 50px;
+}
+
+.hero h3 {
+    color: orange;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    background: black;
+    color: white;
+    cursor: pointer;
+}
+
+section {
+    padding: 40px;
+    text-align: center;
+}
+
+.card {
+    text-align: left;
+    background: rgba(255,255,255,0.08);
+    color: white;
+
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(12px);
+    padding: 20px;
+    margin: 20px auto;
+    width: 60%;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+}
+
+a {
+    color: #38bdf8;
+}
+
+.sidebar-contact {
+    position: fixed;
+    left: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    z-index: 1000;
+}
+
+.sidebar-contact a {
+    font-size: 22px;
+    text-decoration: none;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255,255,255,0.15);
+    color: white;
+    border-radius: 50%;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+    transition: 0.3s ease;
+}
+
+.sidebar-contact a:hover {
+    transform: scale(1.1);
+    background: #ffd54f;
+    color: black;
+}
+
+
+
+
+
